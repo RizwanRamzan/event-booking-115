@@ -1,0 +1,91 @@
+/*/ INSERT_YOUR_CODE */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0 2px 16px rgba(100, 108, 255, 0.05);
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header__logo-svg {
+  display: block;
+}
+
+.header__logo-text {
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: #646cff;
+  letter-spacing: 0.04em;
+  font-family: 'sans-serif', Arial;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.header__btn {
+  background: none;
+  border: none;
+  color: #242424;
+  font-size: 1rem;
+  padding: 0.5em 1.1em;
+  border-radius: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.18s, color 0.18s;
+}
+
+.header__btn:hover,
+.header__btn:focus {
+  background: #e8eaff;
+  color: #646cff;
+}
+
+.header__profile-btn {
+  margin-left: 1.6rem;
+  background: #e8eaff;
+  border: none;
+  border-radius: 50%;
+  padding: 0.38rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.header__profile-btn:hover {
+  background: #646cff22;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.7rem 0.5rem;
+    align-items: flex-start;
+  }
+
+  .header__nav {
+    gap: 0.7rem;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header__logo-text {
+    font-size: 1rem;
+  }
+}
+/*/ End Generation Here */
+

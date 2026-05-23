@@ -1,0 +1,90 @@
+
+.about-section {
+  min-height: 77vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafd;
+  padding: 0px 2rem;
+  gap: 1.7rem;
+}
+
+.about-content {
+  width: 54%;
+  z-index: 2;
+}
+
+.about-title {
+  font-size: 2.43rem;
+  color: #242424;
+  font-weight: 800;
+  line-height: 1.13;
+  margin-bottom: 1.1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: -0.7px;
+}
+
+.about-desc {
+  color: #444;
+  font-size: 1.13rem;
+  margin-bottom: 1.3rem;
+  line-height: 1.66;
+}
+
+.about-span {
+  color: #646cff;
+  font-weight: 700;
+}
+
+.about-svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46%;
+  z-index: 1;
+}
+
+.about-svg {
+  width: 220px;
+  height: 220px;
+  max-width: 100vw;
+  max-height: 43vw;
+  filter: drop-shadow(0 4px 20px #e8eaff64);
+}
+
+@media (max-width: 900px) {
+  .about-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2.4rem;
+    padding: 2.1rem 0 1.2rem 0;
+  }
+  .about-content {
+    max-width: 99vw;
+    width: 100%;
+  }
+  .about-svg-wrapper {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 1rem 0.22rem 0.6rem 0.22rem;
+    gap: 1.25rem;
+    min-height: 54vh;
+  }
+  .about-title {
+    font-size: 1.25rem;
+  }
+  .about-desc {
+    font-size: 0.97rem;
+  }
+  .about-svg {
+    width: 120px;
+    height: 120px;
+    max-height: 31vw;
+  }
+}
+

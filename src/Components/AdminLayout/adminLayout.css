@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.adminLayout{
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+
+    .leftSide{
+        width: 25%;
+    }
+
+    .rightSide{
+        width: 75%;
+        height: 100%;
+        overflow-y: auto;
+    }
+}

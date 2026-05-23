@@ -1,0 +1,46 @@
+.single-card {
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    .card-speciality {
+      background: #e8eaff;
+      color: #646cff;
+      padding: 2px 5px;
+      width: fit-content;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    .card-tag-line {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #646cff;
+      border: none;
+      color: white;
+      font-size: 13px;
+      padding: 0.5em 1.1em;
+      border-radius: 5px;
+      font-family: inherit;
+      cursor: pointer;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+  }
